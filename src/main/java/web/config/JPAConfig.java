@@ -22,7 +22,6 @@ import java.util.Properties;
 @Configuration
 @EnableTransactionManagement
 @PropertySource("classpath:db.properties")
-//@ComponentScan("web")
 public class JPAConfig{
     private Environment env;
 
